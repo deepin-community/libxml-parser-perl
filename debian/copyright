@@ -7,7 +7,10 @@ Files: *
 Copyright:
  1998-2000, Larry Wall <larry@wall.org>
  1998-2000, Clark Cooper <coopercc@netheaven.com>
+ Matt Sergeant <matt@sergeant.org>
 License: Artistic or GPL-1+
+Comment: The 2.47 release includes a LICENSE file which contains the
+ Artistic 2.0 license. This is most likely a mistake.
 
 Files: inc/Devel/CheckLib.pm
 Copyright:
@@ -24,7 +27,7 @@ Copyright:
  2006, Steinar H. Gunderson <sesse@debian.org>
  2008, Niko Tyni <ntyni@debian.org>
  2011, Nicholas Bamber <nicholas@periapt.co.uk>
- 2011-2021, gregor herrmann <gregoa@debian.org>
+ 2011-2024, gregor herrmann <gregoa@debian.org>
  2019, Nick Morrott <nickm@debian.org>
 License: Artistic or GPL-1+
 

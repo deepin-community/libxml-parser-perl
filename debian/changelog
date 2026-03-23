@@ -1,3 +1,32 @@
+libxml-parser-perl (2.47-2) unstable; urgency=medium
+
+  * Team upload.
+  * Fix buffer overflow in parse_stream when filehandle has :utf8 layer.
+    This improves the fix for CVE-2006-10002.
+  * fix: off-by-one heap buffer overflow in st_serial_stack growth check
+    (CVE-2006-10003) (Closes: #378412)
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 21 Mar 2026 07:34:12 +0100
+
+libxml-parser-perl (2.47-1) unstable; urgency=medium
+
+  * Import upstream version 2.47.
+  * Make build dependency on libdevel-checklib-perl versioned.
+  * debian/copyright: update years of packaging copyright.
+  * debian/copyright: add copyright holder.
+  * debian/copyright: add comment regarding new LICENSE file.
+  * Declare compliance with Debian Policy 4.6.2.
+  * Update debian/upstream/metadata.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 01 Jan 2024 23:23:27 +0100
+
+libxml-parser-perl (2.46-4) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + libxml-parser-perl: Drop Multi-Arch: same.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 27 Nov 2022 13:38:48 +0000
+
 libxml-parser-perl (2.46-3) unstable; urgency=medium
 
   * debian/rules: make usage of $Config{vendorarch}

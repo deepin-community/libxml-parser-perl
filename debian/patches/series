@@ -1,0 +1,2 @@
+Fix-buffer-overflow-in-parse_stream-when-filehandle-.patch
+fix-off-by-one-heap-buffer-overflow-in-st_serial_sta.patch
